@@ -23,8 +23,8 @@ function App() {
                 </ul>
                 <Switch>
                     <Route exact path='/' component={Home} />
-                    <Route exact path='/users/:id' component={Users} />
                     <Route exact path='/contact' component={Contact} />
+                    <Route path='/users' component={Users} />
                     <Route component={NotFound} />
                 </Switch>
             </div>
